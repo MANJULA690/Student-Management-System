@@ -1,0 +1,26 @@
+.feature-card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .feature-card {
+    user-select: none; 
+  }
+  
+  .user {
+    user-select: none;
+  }
+  
+  .hover-effect:hover .nav-link {
+    background-color: #f0f0f0;  
+    color: black; 
+    transition: background-color 0.3s ease, color 0.3s ease;  
+    padding: 5px;
+    border-radius: 2px;
+  }
+  
+  .hover-effect .nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
