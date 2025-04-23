@@ -33,3 +33,6 @@ backend/dist/
 *.njsproj
 *.sln
 *.sw?
+
+
+# no students found student route, when student is deleted redirect to students page, delete confirmation as modal 
