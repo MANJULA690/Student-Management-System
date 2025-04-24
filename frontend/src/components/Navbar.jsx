@@ -2,15 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Assests/cbit.png';
 
-import { FaGraduationCap } from 'react-icons/fa';
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-xl bg-body-tertiary w-100">
+        <nav
+            className="navbar navbar-expand-xl bg-body-tertiary w-100 sticky-top shadow"
+            style={{ zIndex: 1030 }}
+        >
             <div className="container-fluid d-flex align-items-center justify-content-between">
 
                 {/* Logo Section */}
                 <Link className="navbar-brand d-flex align-items-center gap-2 text-decoration-none" to="/">
-                <img src={logo} width="100" height="100" className="text-primary" />
+                    <img src={logo} width="90" height="90" className="text-primary" alt="Logo" />
                     <span className="fw-bold fs-3 text-dark">Student Management System</span>
                 </Link>
 
@@ -29,17 +31,16 @@ const Navbar = () => {
 
                 {/* Nav Links */}
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul className="navbar-nav fs-5   gap-5">
-                        <li className="nav-item  hover-effect" >
-                            <Link className="nav-link " to="/">Home</Link>
+                    <ul className="navbar-nav fs-5 gap-5">
+                        <li className="nav-item hover-effect">
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
-                        <li className="nav-item  hover-effect">
-                            <Link className="nav-link " to="/students">Students</Link>
+                        <li className="nav-item hover-effect">
+                            <Link className="nav-link" to="/students">Students</Link>
                         </li>
-                        <li className="nav-item  hover-effect">
-                            <Link className="nav-link " to="/add">Register</Link>
+                        <li className="nav-item hover-effect">
+                            <Link className="nav-link" to="/add">Register</Link>
                         </li>
-
                     </ul>
                 </div>
             </div>
