@@ -3,7 +3,7 @@ import AddStudent from './components/AddStudent';
 import EditStudent from './components/EditStudent';
 import StudentList from './components/StudentList';
 import Navbar from "./components/Navbar";
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import Footer from "./components/Footer";
 
 function App() {

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Assets } from '../Assests/Assets';
 import { useNavigate } from 'react-router-dom';
-import { FaCogs } from 'react-icons/fa'; 
 const Home = () => {
   const navigate = useNavigate();
   return (
@@ -28,7 +27,6 @@ const Home = () => {
           </a>
         </div>
 
-      {/* Welcome Section */}
       <div className="container mt-5 text-center user">
         <h2 className="mb-3">Welcome to CBIT Student Management System</h2>
         <p className="lead">

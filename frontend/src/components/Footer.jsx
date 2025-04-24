@@ -1,15 +1,10 @@
 import React from 'react';
 import {
   FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaUniversity,
   FaYoutube,
 } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
 import { MdEmail, MdLocationOn, MdMobileFriendly, MdMobileOff, MdMobileScreenShare, MdPhone } from 'react-icons/md';
-import { Assets } from '../Assests/Assets';
 import logo from '../Assests/cbit2.png';
 
 const Footer = () => {
@@ -39,7 +34,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Social Media */}
+          {/* Links */}
           <div className="col-md-3 mb-4">
             <h5 className="fw-bold mb-3">Connect With Us</h5>
             <div className="d-flex flex-column gap-2">
@@ -56,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+        {/* Footer */}
         <div className="text-center pt-3 border-top border-secondary mt-4">
           <p className="mb-1 small">
             &copy; {new Date().getFullYear()} Student Management System - CBIT. All Rights Reserved.
