@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       
       <div className="flex-grow-1">
-        <BrowserRouter basename='/WT-Assignment-2'>
+        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/students" element={<StudentList />} />
