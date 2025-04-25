@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
 import { MdEmail, MdLocationOn, MdMobileFriendly, MdMobileOff, MdMobileScreenShare, MdPhone } from 'react-icons/md';
-import logo from '../Assests/cbit2.png';
+import logo from '../Assets/cbit2.png';
 
 const Footer = () => {
   return (

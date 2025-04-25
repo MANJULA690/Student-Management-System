@@ -1,5 +1,5 @@
 import React from 'react';
-import { Assets } from '../Assests/Assets';
+import { Assets } from '../Assets/Assets';
 import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate = useNavigate();
@@ -8,13 +8,13 @@ const Home = () => {
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src={Assets.home1} alt="First slide" style={{ height: '72vh', objectFit: 'cover' }} />
+              <img class="d-block w-100" src={Assets.image1} alt="First slide" style={{ height: '72vh', objectFit: 'cover' }} />
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src={Assets.home2} alt="Second slide" style={{ height: '72vh', objectFit: 'cover' }} />
+              <img class="d-block w-100" src={Assets.image2} alt="Second slide" style={{ height: '72vh', objectFit: 'cover' }} />
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src={Assets.home3} alt="Third slide"  style={{ height: '72vh', objectFit: 'cover' }}/>
+              <img class="d-block w-100" src={Assets.image3} alt="Third slide"  style={{ height: '72vh', objectFit: 'cover' }}/>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
