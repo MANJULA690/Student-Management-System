@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import AddStudent from './components/AddStudent';
 import EditStudent from './components/EditStudent';
 import StudentList from './components/StudentList';
@@ -12,12 +12,14 @@ function App() {
       <Navbar />
       
       <div className="flex-grow-1">
+        <BrowserRouter basename='/WT-Assignment-2'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/students" element={<StudentList />} />
           <Route path="/add" element={<AddStudent />} />
           <Route path="/edit/:id" element={<EditStudent />} />
         </Routes>
+        </BrowserRouter>
       </div>
       
       <Footer />
