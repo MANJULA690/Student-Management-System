@@ -12,14 +12,14 @@ function App() {
       <Navbar />
       
       <div className="flex-grow-1">
-        <BrowserRouter>
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/students" element={<StudentList />} />
           <Route path="/add" element={<AddStudent />} />
           <Route path="/edit/:id" element={<EditStudent />} />
         </Routes>
-        </BrowserRouter>
+      
       </div>
       
       <Footer />
