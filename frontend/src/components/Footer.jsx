@@ -38,13 +38,13 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h5 className="fw-bold mb-3">Connect With Us</h5>
             <div className="d-flex flex-column gap-2">
-              <a href="https://www.facebook.comhttps://www.facebook.com/CBIThyderabad/" className="text-dark text-decoration-none d-flex align-items-center" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="https://www.facebook.com/CBIThyderabad/" className="text-dark text-decoration-none d-flex align-items-center" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <FaFacebook className="me-2" /> Facebook
               </a>
               <a href="https://www.instagram.com/cbithyderabad/" className="text-dark text-decoration-none d-flex align-items-center" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <GrInstagram className="me-2" /> Instagram
               </a>
-              <a href="https://www.linkedin.comhttps://www.youtube.com/channel/UCUW8oQB8Fl6j-pg2g_sf1tw" className="text-dark text-decoration-none d-flex align-items-center" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.youtube.com/channel/UCUW8oQB8Fl6j-pg2g_sf1tw" className="text-dark text-decoration-none d-flex align-items-center" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FaYoutube className="me-2" /> Youtube
               </a>
             </div>
