@@ -9,8 +9,7 @@ Click here: https://wt-assignment-2-seven.vercel.app/
 ## ✨ Features
 
 - Add, edit, and delete student records
-- View all student details in one place
-- Responsive and user-friendly interface
+- View all student details in one place and also each student individually
 - Client-side form validation
 
 ## 🛠️ Tech Stack
